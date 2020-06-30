@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nasa_Apod</string>
+    <string name="priyanka">© Priyanka</string>
+    <string name="explaination">Explaination:</string>
+    <string name="astronomy_photo_of_the_day">Astronomy Photo of the Day</string>
+    <string name="nasa">NASA</string>
+    <string name="api_key">AIzaSyAyMYw7oW0T-uycehw0e6owYjmg6WOll7Q</string>
+    <string name="rate_limit_over">Rate Limit Over</string>
+    <string name="limit_exceeded">Limit exceeded!</string>
+</resources>

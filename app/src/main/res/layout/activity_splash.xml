@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nasa"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_below="@+id/tv_appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/astronomy_photo_of_the_day"
+        android:textSize="@dimen/_15sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/priyanka"
+        android:textSize="@dimen/_11sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
